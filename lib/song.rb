@@ -7,7 +7,7 @@ class Song
     include Paramable::InstanceMethods
   attr_accessor :name
   attr_reader :artist
-  
+
 
   @@songs = []
 def self.all
